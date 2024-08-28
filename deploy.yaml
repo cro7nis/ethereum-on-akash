@@ -39,3 +39,4 @@ deployment:
   ethereum:
     dcloud:
       profile: ethereum
+      count: 1
