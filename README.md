@@ -8,6 +8,10 @@ The project is developed for the **Get “XYZ Network” RPC node running on Aka
 
 ## Deploy on Akash guide
 
+
+https://github.com/user-attachments/assets/cd4fe9b0-8f10-4506-8594-84ae771d7d9e
+
+
 - Create and fund a Keplr or Leap wallet
   - [Keplr wallet](https://akash.network/docs/getting-started/token-and-wallets/#keplr-wallet)
   - [Leap wallet](https://akash.network/docs/getting-started/token-and-wallets/#leap-cosmos-wallet)
