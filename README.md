@@ -8,6 +8,7 @@ The project is developed for the **Get “XYZ Network” RPC node running on Aka
 
 ## Deploy on Akash guide
 
+Check [this](https://medium.com/@cro7nis/deploying-ethereum-node-on-akash-network-using-nethermind-ad8b1cdac786) medium post for more details
 
 https://github.com/user-attachments/assets/cd4fe9b0-8f10-4506-8594-84ae771d7d9e
 
