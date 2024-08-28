@@ -27,8 +27,8 @@ Check Nethhermind [docs](https://docs.nethermind.io/)
 
 ## Ping the rpc interface
 
-`
+```
 curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}' <URI>
-`
+```
 
 Other rpc request examples can be found [here](https://ethereum.org/en/developers/docs/apis/json-rpc/)
