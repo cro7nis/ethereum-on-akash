@@ -16,6 +16,9 @@ services:
         as: 8551
         to:
           - global: true
+    env:
+      - NETHERMIND_JSONRPCCONFIG_ENABLED=true
+      - NETHERMIND_JSONRPCCONFIG_HOST=0.0.0.0
 profiles:
   compute:
     ethereum:
@@ -36,4 +39,3 @@ deployment:
   ethereum:
     dcloud:
       profile: ethereum
-      count: 1
