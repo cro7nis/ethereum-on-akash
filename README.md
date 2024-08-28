@@ -4,6 +4,8 @@
 
 Check Nethhermind [docs](https://docs.nethermind.io/)
 
+The project is developed for the **Get “XYZ Network” RPC node running on Akash** zealy task which is hosted by Akash.
+
 ## Deploy on Akash guide
 
 - Create and fund a Keplr or Leap wallet
