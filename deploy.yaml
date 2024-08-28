@@ -1,0 +1,39 @@
+---
+version: "2.0"
+services:
+  ethereum:
+    image: nethermind/nethermind:latest
+    expose:
+      - port: 30303
+        as: 30303
+        to:
+          - global: true
+      - port: 8545
+        as: 8545
+        to:
+          - global: true
+      - port: 8551
+        as: 8551
+        to:
+          - global: true
+profiles:
+  compute:
+    ethereum:
+      resources:
+        cpu:
+          units: 4
+        memory:
+          size: 16GB
+        storage:
+          - size: 700Gi
+  placement:
+    dcloud:
+      pricing:
+        ethereum:
+          denom: uakt
+          amount: 1000
+deployment:
+  ethereum:
+    dcloud:
+      profile: ethereum
+      count: 1
